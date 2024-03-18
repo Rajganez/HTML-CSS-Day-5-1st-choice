@@ -1,0 +1,53 @@
+.con{
+    display: grid; grid-template-rows: 4fr 4fr 1fr 1fr 1fr 2fr;
+    font-family: Roboto Condensed; padding: 0;margin: 0;
+
+}
+.items {
+    display: grid; color: white;background-color: black;
+}
+.items > ul {
+    display : flex ; list-style: none; padding-left: 25%; font-size: smaller; 
+}
+.items > span {
+    font-family: Roboto; text-align: center; justify-content: center; font-weight: normal;    
+}
+.About{
+    display: flex; margin-top: 5%;
+}
+.About > p{
+    padding-left: 15%;
+}
+.About > img{
+     width: 15%;
+}
+.but{
+    display: flex; justify-content: center; align-items: center;
+}
+.ribbon{
+    display: grid; justify-content: center; align-items:center; color: white;
+    background-color: black; height: 100% ; font-weight: lighter;   
+}
+.awards{
+    display: flex; justify-content: center; text-align: left; font-weight:lighter; 
+
+}
+.awards .box{
+    border: 1px solid black; width: 25%; height: 40%; padding: 10px; margin: 10px;
+    font-size: small; overflow:visible;
+}
+.awardHead{
+    display:flex; justify-content: center; align-items: center; font-weight: bold;
+}
+.songs{
+    display: flex; justify-content: center; text-align: left; font-weight: normal; 
+    width: 90%;
+}
+.songs > ol{
+    list-style: disc;
+}
+.footer{
+    display: flex; justify-content: space-between; align-items: flex-start; color: white;
+    background-color: black; padding: 2%;font-size: small;
+
+}
