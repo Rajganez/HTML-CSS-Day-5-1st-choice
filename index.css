@@ -26,18 +26,19 @@
 }
 .ribbon{
     display: grid; justify-content: center; align-items:center; color: white;
-    background-color: black; height: 100% ; font-weight: lighter;   
+    background-color: black; height: 100% ; font-weight: lighter; font-stretch: expanded;
 }
 .awards{
     display: flex; justify-content: center; text-align: left; font-weight:lighter; 
 
 }
 .awards .box{
-    border: 1px solid black; width: 25%; height: 40%; padding: 10px; margin: 10px;
-    font-size: small; overflow:visible;
+    border: 1px solid black; width: 17%; height: 32%; padding: 10px; margin: 10px;
+    font-size: small; overflow-wrap: break-word; 
 }
 .awardHead{
     display:flex; justify-content: center; align-items: center; font-weight: bold;
+
 }
 .songs{
     display: flex; justify-content: center; text-align: left; font-weight: normal; 
@@ -48,6 +49,6 @@
 }
 .footer{
     display: flex; justify-content: space-between; align-items: flex-start; color: white;
-    background-color: black; padding: 2%;font-size: small;
+    background-color: black; padding: 3%;font-size: small;font-variant: normal;
 
 }
